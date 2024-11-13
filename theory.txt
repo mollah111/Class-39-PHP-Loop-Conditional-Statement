@@ -1,0 +1,84 @@
+
+==============PHP Loop=========
+
+1. for Loop
+2. foreach Loop
+3. while Loop
+4. do while Loop
+
+
+$indexArray = [78, 69, 81, 55, 93, 46]
+
+==> for loop
+for(initilize; condition/range; increment/decrement){
+    //Statement.....
+}
+
+for($i=0; $i<=5; $i++){
+    echo $indexArray[$i];
+}
+
+===> foreach loop
+foreach(array_variable as array_element){
+    //Statement...
+}
+
+foreach($indexArray as $element){
+    echo $element;
+}
+
+===>while loop
+
+initilize
+
+while(condition){
+    //Statement...
+    increment/decrement
+}
+
+$i = 0;
+
+while($i<=5){
+    echo $indexArray[$i];
+    $i++;
+}
+
+
+===>do while
+
+initilize
+
+do{
+    //Statement...
+    increment/decrement
+}
+
+while(condition);
+
+$j = 0;
+
+do{
+    echo $indexArray[$i];
+    $i++;
+}
+
+while($j<=5);
+
+
+=========Conditional Statement======
+
+if(condition){
+    //Statement
+}
+
+elseif(condition){
+    //Statement
+}
+
+elseif(condition){
+    //Statement
+}
+
+else{
+    //Statement
+}
